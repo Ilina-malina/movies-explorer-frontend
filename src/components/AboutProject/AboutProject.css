@@ -1,0 +1,219 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #202020;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width:768px) {
+    .project {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.project__title {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 28px;
+    margin-top: 70px;
+    margin-bottom: 61px;
+    min-width: 85%;
+    text-align: left;
+}
+
+@media screen and (min-width:768px) {
+    .project__title {
+        font-size: 22px;
+        line-height: 27px;
+        margin-top: 90px;
+        margin-bottom: 70px;
+        padding-bottom: 23px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .project__title {
+        margin-top: 110px;
+        margin-bottom: 70px;
+    }
+}
+
+.project__info-container {
+    max-width: 284px;
+    align-items: center;
+    margin: 0;
+    gap: 56px;
+}
+
+@media screen and (min-width:768px) {
+    .project__info-container {
+        max-width: 319px;
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .project__info-container {
+        max-width: 550px;
+        gap: 40px;
+    }
+}
+
+.project__info-title {
+    text-align: left;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width:768px) {
+    .project__info-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .project__info-title {
+        margin-bottom: 26px;
+    }
+}
+
+.project__info-text {
+    text-align: left;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0;
+}
+
+@media screen and (min-width:768px) {
+    .project__info-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .project__info-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.project__time {
+    display: grid;
+    grid-template-columns: 100px 184px;
+    grid-template-rows: 35px 35px;
+    align-items: center;
+    margin-bottom: 52px;
+    margin-top: 61px;
+}
+
+@media screen and (min-width:768px) {
+    .project__time {
+        grid-template-columns: 140px 528px;
+        grid-template-rows: 36px 36px;
+        margin-bottom: 76px;
+        margin-top: 93px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .project__time {
+        grid-template-columns: 228px 912px;
+        grid-template-rows: 36px 36px;
+        margin-bottom: 96px;
+        margin-top: 110px;
+    }
+}
+
+.project__backend-time {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    background-color: #3DDC84;
+    margin: 0;
+    padding: 11px 0;
+}
+
+@media screen and (min-width:768px) {
+    .project__backend-time {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 9px 0;
+    }
+}
+
+.project__frontend-time {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    background-color: #303030;
+    padding: 11px 0;
+    margin: 0;
+}
+
+@media screen and (min-width:768px) {
+    .project__frontend-time {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 9px 0;
+    }
+}
+
+.project__backend {
+    font-family: 'Inter', Arial, sans-serif; /* нужно скачать шрифт! */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #A0A0A0;
+
+}
+
+@media screen and (min-width:768px) {
+    .project__backend {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+.project__frontend {
+    font-family: 'Inter', Arial, sans-serif; /* нужно скачать шрифт! */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #A0A0A0;
+}
+
+@media screen and (min-width:768px) {
+    .project__frontend {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
