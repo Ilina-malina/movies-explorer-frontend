@@ -1,8 +1,13 @@
 import AboutProject from "../AboutProject/AboutProject.js";
+import Techs from "../Techs/Techs.js";
 
-function Main(props) {
+function Main() {
     return (
-        <AboutProject />
+        <div className="main">
+            <AboutProject />
+            <Techs />
+        </div>
+        
     )
 }
 

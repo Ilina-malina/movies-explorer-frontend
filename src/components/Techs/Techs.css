@@ -1,0 +1,142 @@
+.techs {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #202020;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width:768px) {
+    .techs {
+        background-color: #272727;
+    }
+}
+
+.techs__title {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 28px;
+    min-width: 85%;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+
+@media screen and (min-width:768px) {
+    .techs__title {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 80px;
+        padding-bottom: 23px;
+        border-bottom: 1px solid #DADADA;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .techs__title {
+        margin-top: 100px;
+        margin-bottom: 90px;
+    }
+}
+
+.techs__info-title {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .techs__info-title {
+        font-size: 50px;
+        line-height: 58px;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .techs__info-title {
+        margin-bottom: 26px;
+    }
+}
+
+.techs__info-text {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width:768px) {
+    .techs__info-text {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 83px;
+        max-width: 460px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .techs__info-text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+}
+
+.techs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+@media screen and (min-width:768px) {
+    .techs__container {
+        grid-template-columns: repeat(7, 1fr);
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .techs__container {
+        margin-bottom: 100px;
+    }
+}
+
+.techs__item {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 10px;
+    background: #303030;
+    width: 84px;
+    height: 57px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+@media screen and (min-width:1280px) {
+    .techs__item {
+        font-size: 14px;
+        line-height: 17px;
+        width: 90px;
+        height: 60px;
+    }
+}

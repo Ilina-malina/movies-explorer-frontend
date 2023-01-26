@@ -1,6 +1,6 @@
 import '../AboutProject/AboutProject.css';
 
-function AboutProject(props) {
+function AboutProject() {
     return (
         <section className="project">
             <h3 className="project__title">О проекте</h3>
