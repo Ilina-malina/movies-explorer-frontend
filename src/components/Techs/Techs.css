@@ -3,8 +3,6 @@
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
-    background-color: #202020;
-    color: #FFFFFF;
 }
 
 @media screen and (min-width:768px) {
@@ -21,10 +19,11 @@
     line-height: 22px;
     border-bottom: 1px solid #000000;
     padding-bottom: 28px;
-    min-width: 85%;
+    min-width: 88%;
     text-align: left;
     margin-bottom: 60px;
     margin-top: 70px;
+    letter-spacing: -0.04em;
 }
 
 @media screen and (min-width:768px) {
@@ -35,6 +34,7 @@
         padding-bottom: 23px;
         border-bottom: 1px solid #DADADA;
         margin-top: 90px;
+        min-width: 87%;
     }
 }
 
@@ -42,6 +42,7 @@
     .techs__title {
         margin-top: 100px;
         margin-bottom: 90px;
+        min-width: 89%;
     }
 }
 
@@ -53,6 +54,8 @@
     line-height: 36px;
     text-align: center;
     margin-bottom: 24px;
+    margin-top: 0;
+    letter-spacing: -0.04em;
 }
 
 @media screen and (min-width:768px) {
@@ -77,6 +80,8 @@
     line-height: 16px;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 0;
+    letter-spacing: -0.04em;
 }
 
 @media screen and (min-width:768px) {
@@ -100,7 +105,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    vertical-align: middle;
     text-align: center;
     margin-bottom: 70px;
 }
@@ -120,6 +124,7 @@
 
 .techs__item {
     font-family: 'Inter', Arial, sans-serif;
+    letter-spacing: -0.04em;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -129,7 +134,8 @@
     width: 84px;
     height: 57px;
     margin: 0;
-    vertical-align: middle;
+    padding-top: 21px;
+    box-sizing: border-box;
 }
 
 @media screen and (min-width:1280px) {

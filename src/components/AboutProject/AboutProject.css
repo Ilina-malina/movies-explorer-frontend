@@ -3,8 +3,6 @@
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
-    background-color: #202020;
-    color: #FFFFFF;
 }
 
 @media screen and (min-width:768px) {
@@ -23,10 +21,11 @@
     line-height: 22px;
     border-bottom: 1px solid #DADADA;
     padding-bottom: 28px;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     margin-bottom: 61px;
-    min-width: 85%;
+    min-width: 88%;
     text-align: left;
+    letter-spacing: -0.04em;
 }
 
 @media screen and (min-width:768px) {
@@ -43,6 +42,7 @@
     .project__title {
         margin-top: 110px;
         margin-bottom: 70px;
+        min-width: 89%;
     }
 }
 
@@ -50,20 +50,28 @@
     max-width: 284px;
     align-items: center;
     margin: 0;
-    gap: 56px;
+}
+
+.project__info-container:first-of-type {
+    margin-bottom: 57px;
 }
 
 @media screen and (min-width:768px) {
     .project__info-container {
         max-width: 319px;
-        gap: 30px;
+    }
+    .project__info-container:first-of-type {
+        margin-bottom: 0;
+        margin-right: 30px;
     }
 }
 
 @media screen and (min-width:1280px) {
     .project__info-container {
         max-width: 550px;
-        gap: 40px;
+    }
+    .project__info-container:first-of-type {
+        margin-right: 40px;
     }
 }
 
@@ -76,6 +84,7 @@
     line-height: 22px;
     margin-top: 0;
     margin-bottom: 16px;
+    letter-spacing: -0.04em;
 }
 
 @media screen and (min-width:768px) {
@@ -122,14 +131,14 @@
     grid-template-rows: 35px 35px;
     align-items: center;
     margin-bottom: 52px;
-    margin-top: 61px;
+    margin-top: 62px;
 }
 
 @media screen and (min-width:768px) {
     .project__time {
         grid-template-columns: 140px 528px;
         grid-template-rows: 36px 36px;
-        margin-bottom: 76px;
+        margin-bottom: 90px;
         margin-top: 93px;
     }
 }
@@ -138,7 +147,7 @@
     .project__time {
         grid-template-columns: 228px 912px;
         grid-template-rows: 36px 36px;
-        margin-bottom: 96px;
+        margin-bottom: 110px;
         margin-top: 110px;
     }
 }
@@ -153,6 +162,8 @@
     background-color: #3DDC84;
     margin: 0;
     padding: 11px 0;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 @media screen and (min-width:768px) {
@@ -173,6 +184,7 @@
     background-color: #303030;
     padding: 11px 0;
     margin: 0;
+    text-align: center;
 }
 
 @media screen and (min-width:768px) {
@@ -191,13 +203,14 @@
     line-height: 13px;
     text-align: center;
     color: #A0A0A0;
-
+    margin: 0;
 }
 
 @media screen and (min-width:768px) {
     .project__backend {
         font-size: 14px;
         line-height: 17px;
+        padding: 14px 0 0;
     }
 }
 
@@ -209,11 +222,14 @@
     line-height: 13px;
     text-align: center;
     color: #A0A0A0;
+    padding: 14px 0 0;
+    margin: 0;
 }
 
 @media screen and (min-width:768px) {
     .project__frontend {
         font-size: 14px;
         line-height: 17px;
+        padding: 14px 0 0;
     }
 }
