@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1280px) {
     .about-me__title {
         margin-top: 110px;
         min-width: 89%;
@@ -50,6 +50,13 @@
         flex-direction: row;
         direction: rtl;
         justify-content: flex-end;
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .about-me__content {
+        margin-bottom: 100px;
     }
 }
 
