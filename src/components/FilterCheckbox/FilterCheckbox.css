@@ -1,0 +1,99 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+  }
+  
+  /* Скрыть флажок HTML по умолчанию */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Ползунок */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #3DDC84;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #3DDC84;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(16px);
+  }
+  
+  /* Закругленные ползунки */
+  .slider.round {
+    border-radius: 20px;
+  }
+  
+  .slider.round:before {
+    border-radius: 20px;
+  }
+
+  .checkbox {
+    display: flex;
+    margin: 44px 0 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 43px;
+    border-bottom: #424242 1px solid;
+    min-width: 292px;
+  }
+
+  @media screen and (min-width:768px) {
+    .checkbox {
+        margin-top: 30px;
+        padding-bottom: 39px;
+        min-width: 708px;
+    }
+  }
+
+  @media screen and (min-width:1280px) {
+    .checkbox {
+        min-width: 1140px;
+    }
+  }
+
+  .checkbox__name {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 13px;
+  }
+
+  @media screen and (min-width:768px) {
+    .checkbox__name {
+        font-size: 12px;
+        margin-left: 12px;
+    }
+  }
